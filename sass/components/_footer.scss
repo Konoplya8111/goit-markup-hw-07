@@ -1,0 +1,73 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: #2f303a;
+  height: 252px;
+}
+
+.container-contacts {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.contakt .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.contakt-link {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+
+.networks-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  color: $primary-white-color;
+}
+
+.footer-social {
+  display: flex;
+  align-items: baseline;
+  margin-top: 20px;
+}
+
+.social-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  & .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+  }
+
+  & .footer-link:hover,
+  & .footer-link:focus {
+    background: $accent-color;
+  }
+
+  & .footer-link {
+    fill: $primary-white-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 50%;
+  }
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
