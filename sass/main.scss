@@ -1,13 +1,12 @@
+@import "./base/reset";
 @import "./utils/colors";
-@import "./utils/nulling styles";
 @import "./utils/visually-hidden";
 @import "./components/body";
 @import "./components/heder";
 @import "./components/logo";
-@import "./components/menu";
-@import "./components/siite-contakt";
 @import "./components/container-hero";
-@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/form modal";
 @import "./components/hero button";
 @import "./components/section-features";
 @import "./components/section-work";
@@ -17,5 +16,4 @@
 @import "./components/logo-footer";
 @import "./components/form-footer";
 @import "./components/portfolio";
-@import "./components/container-portfolio";
-@import "./components/portfolio-animation";
+@import "./components/portfolio work";

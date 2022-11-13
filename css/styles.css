@@ -471,19 +471,15 @@ header {
   background-position: center;
   margin-bottom: 55px;
 }
-
 .clock::before {
   background-image: url(../images/clock.svg);
 }
-
 .antenna::before {
   background-image: url(../images/antenna.svg);
 }
-
 .diagram::before {
   background-image: url(../images/diagram.svg);
 }
-
 .astronaut::before {
   background-image: url(../images/astronaut.svg);
 }*/
@@ -552,16 +548,6 @@ header {
   margin-right: 30px;
 }
 
-.section-title {
-  margin-bottom: 50px;
-
-  color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
 .annex-title {
   font-weight: 700;
   font-size: 14px;
@@ -598,6 +584,16 @@ header {
   width: 1200px;
   margin: 0px auto;
   padding: 0px 15px;
+}
+
+.section-title {
+  margin-bottom: 50px;
+
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .container-team .list {
