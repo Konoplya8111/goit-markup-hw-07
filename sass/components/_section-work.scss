@@ -1,4 +1,4 @@
-.work {
+.section-work {
   padding-bottom: 94px;
 }
 
@@ -6,44 +6,44 @@
   width: 1200px;
   margin: 0px auto;
   padding: 0px 15px;
+
+  &__section-title {
+    margin-bottom: 50px;
+
+    color: $primary-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+  }
 }
 
-.container-work .list {
+.work {
   display: flex;
 }
 
-.container-work .item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
-}
-
-.section-title {
-  margin-bottom: 50px;
-
-  color: $primary-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-.annex-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  color: $primary-white-color;
-  background: rgba(47, 48, 58, 0.8);
-  width: 370px;
-  height: 70px;
-
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-
-  padding-top: 27px;
 }
 
 .annex {
   text-align: center;
+
+  &__annex-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $primary-white-color;
+    background: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+    padding-top: 27px;
+  }
 }
 
 .applications {

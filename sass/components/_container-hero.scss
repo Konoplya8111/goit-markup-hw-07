@@ -1,5 +1,5 @@
 .container-hero {
-  background-color: #212121;
+  background-color: $primary-text-color;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -12,16 +12,16 @@
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
-}
 
-.hero-title {
-  margin-bottom: 32px;
-  text-align: center;
+  &__hero-title {
+    margin-bottom: 32px;
+    text-align: center;
 
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $primary-white-color;
+  }
 }

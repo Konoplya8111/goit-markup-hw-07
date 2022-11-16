@@ -9,33 +9,33 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-}
 
-.card-item:hover {
-  background: $primary-white-color;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &__card-item:hover {
+    background: $primary-white-color;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .card-content {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
-}
 
-.work-titly {
-  margin-bottom: 4px;
+  &__work-titly {
+    margin-bottom: 4px;
 
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: $primary-text-color;
-}
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $primary-text-color;
+  }
 
-.work-text {
-  font-size: 16px;
-  line-height: 1.9;
-  color: $title-text-color;
+  &__work-text {
+    font-size: 16px;
+    line-height: 1.9;
+    color: $title-text-color;
+  }
 }
 
 .card-work {
@@ -56,20 +56,20 @@
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__animation-text {
+    padding: 63px 24px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 18px;
+    line-height: 1.56;
+
+    color: $primary-white-color;
+  }
 }
 
-.animation-text {
-  padding: 63px 24px;
-  margin-top: 0;
-  margin-bottom: 0;
-
-  font-size: 18px;
-  line-height: 1.56;
-
-  color: $primary-white-color;
-}
-
-.overlay-link:hover .animation,
-.overlay-link:focus .animation {
+.card__overlay-link:hover .animation,
+.card__overlay-link:focus .animation {
   transform: translateY(0%);
 }
