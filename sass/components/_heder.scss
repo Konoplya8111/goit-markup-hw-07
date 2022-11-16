@@ -60,6 +60,10 @@ header {
   color: $accent-color;
 }
 
+.current {
+  color: $accent-color;
+}
+
 .site-contakt {
   display: flex;
   align-items: center;
@@ -93,7 +97,4 @@ header {
 }
 .site-contakt__item:not(:last-child) {
   margin-right: 50px;
-}
-.current {
-  color: $accent-color;
 }

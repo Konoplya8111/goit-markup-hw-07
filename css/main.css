@@ -112,6 +112,10 @@ header {
   color: #2196f3;
 }
 
+.current {
+  color: #2196f3;
+}
+
 .site-contakt {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -144,10 +148,6 @@ header {
 
 .site-contakt__item:not(:last-child) {
   margin-right: 50px;
-}
-
-.current {
-  color: #2196f3;
 }
 
 .nav__logo {
